@@ -1,0 +1,29 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="x-kafka-ui" type="docker-deploy" factoryName="docker-image" folderName="middleware and tool" server-name="docker 33">
+    <deployment type="docker-image">
+      <settings>
+        <option name="imageTag" value="provectuslabs/kafka-ui:v0.7.2" />
+        <option name="containerName" value="x-kafka-ui" />
+        <option name="envVars">
+          <list>
+            <DockerEnvVarImpl>
+              <option name="name" value="DYNAMIC_CONFIG_ENABLED" />
+              <option name="value" value="true" />
+            </DockerEnvVarImpl>
+          </list>
+        </option>
+        <option name="portBindings">
+          <list>
+            <DockerPortBindingImpl>
+              <option name="containerPort" value="8080" />
+              <option name="hostPort" value="9090" />
+            </DockerPortBindingImpl>
+          </list>
+        </option>
+        <option name="commandLineOptions" value="-m 250MB" />
+        <option name="showCommandPreview" value="true" />
+      </settings>
+    </deployment>
+    <method v="2" />
+  </configuration>
+</component>

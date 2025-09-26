@@ -1,0 +1,36 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="x-sonarqube" type="docker-deploy" factoryName="docker-image" folderName="middleware and tool" server-name="docker 31">
+    <deployment type="docker-image">
+      <settings>
+        <option name="imageTag" value="sonarqube:community" />
+        <option name="containerName" value="x-sonarqube" />
+        <option name="portBindings">
+          <list>
+            <DockerPortBindingImpl>
+              <option name="containerPort" value="9000" />
+              <option name="hostPort" value="9001" />
+            </DockerPortBindingImpl>
+          </list>
+        </option>
+        <option name="showCommandPreview" value="true" />
+        <option name="volumeBindings">
+          <list>
+            <DockerVolumeBindingImpl>
+              <option name="containerPath" value="/opt/sonarqube/data" />
+              <option name="hostPath" value="/root/Public/CIMS-Backend/ricci/sonarqube/data" />
+            </DockerVolumeBindingImpl>
+            <DockerVolumeBindingImpl>
+              <option name="containerPath" value="/opt/sonarqube/logs" />
+              <option name="hostPath" value="/root/Public/CIMS-Backend/ricci/sonarqube/logs" />
+            </DockerVolumeBindingImpl>
+            <DockerVolumeBindingImpl>
+              <option name="containerPath" value="/opt/sonarqube/extensions" />
+              <option name="hostPath" value="/root/Public/CIMS-Backend/ricci/sonarqube/extensions" />
+            </DockerVolumeBindingImpl>
+          </list>
+        </option>
+      </settings>
+    </deployment>
+    <method v="2" />
+  </configuration>
+</component>

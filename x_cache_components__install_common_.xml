@@ -1,0 +1,48 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="x-cache-components [install-common]" type="MavenRunConfiguration" factoryName="Maven" folderName="ricciliao">
+    <MavenSettings>
+      <option name="myGeneralSettings" />
+      <option name="myRunnerSettings" />
+      <option name="myRunnerParameters">
+        <MavenRunnerParameters>
+          <option name="cmdOptions" />
+          <option name="profiles">
+            <set />
+          </option>
+          <option name="goals">
+            <list>
+              <option value="install:install-file" />
+              <option value="-Dfile=target/${assembly-common-component-jar.finalName}-common.jar" />
+              <option value="-DgroupId=ricciliao.x" />
+              <option value="-DartifactId=cache-common-component" />
+              <option value="-Dversion=1.0.0" />
+              <option value="-Dpackaging=jar" />
+              <option value="-DpomFile=src\assembly\common-pom.xml" />
+            </list>
+          </option>
+          <option name="multimoduleDir" />
+          <option name="pomFileName" value="pom.xml" />
+          <option name="profilesMap">
+            <map />
+          </option>
+          <option name="projectsCmdOptionValues">
+            <list />
+          </option>
+          <option name="resolveToWorkspace" value="false" />
+          <option name="workingDirPath" value="$PROJECT_DIR$/x-cache-components" />
+        </MavenRunnerParameters>
+      </option>
+    </MavenSettings>
+    <extension name="net.ashald.envfile">
+      <option name="IS_ENABLED" value="false" />
+      <option name="IS_SUBST" value="false" />
+      <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+      <option name="IS_IGNORE_MISSING_FILES" value="false" />
+      <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+      <ENTRIES>
+        <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+      </ENTRIES>
+    </extension>
+    <method v="2" />
+  </configuration>
+</component>

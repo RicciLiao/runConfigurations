@@ -1,0 +1,40 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="x-mongo" type="docker-deploy" factoryName="docker-image" folderName="middleware and tool" server-name="docker 31">
+    <deployment type="docker-image">
+      <settings>
+        <option name="imageTag" value="mongo:8.0" />
+        <option name="containerName" value="x-mongo" />
+        <option name="envVars">
+          <list>
+            <DockerEnvVarImpl>
+              <option name="name" value="MONGO_INITDB_ROOT_PASSWORD" />
+              <option name="value" value="asl123456" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="MONGO_INITDB_ROOT_USERNAME" />
+              <option name="value" value="admin" />
+            </DockerEnvVarImpl>
+          </list>
+        </option>
+        <option name="portBindings">
+          <list>
+            <DockerPortBindingImpl>
+              <option name="containerPort" value="27017" />
+              <option name="hostPort" value="27020" />
+            </DockerPortBindingImpl>
+          </list>
+        </option>
+        <option name="showCommandPreview" value="true" />
+        <option name="volumeBindings">
+          <list>
+            <DockerVolumeBindingImpl>
+              <option name="containerPath" value="/data/db" />
+              <option name="hostPath" value="/root/Public/CIMS-Backend/ricci/mongo/data" />
+            </DockerVolumeBindingImpl>
+          </list>
+        </option>
+      </settings>
+    </deployment>
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="bsm dev" type="js.build_tools.npm">
+    <package-json value="$PROJECT_DIR$/ricci-bsm-app/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="dev" />
+    </scripts>
+    <node-interpreter value="$PROJECT_DIR$/../../../../../Program Files/Nodejs/node-v18.20.4-win-x64/node" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

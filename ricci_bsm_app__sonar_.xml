@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ricci-bsm-app [sonar]" type="js.build_tools.npm">
+    <package-json value="$PROJECT_DIR$/ricci-bsm-app/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="sonar" />
+    </scripts>
+    <node-interpreter value="project" />
+    <envs>
+      <env name="SONAR_HOST_URL" value="http://192.168.165.34:9000" />
+      <env name="SONAR_TOKEN" value="sqa_8145968fc2fdcce3ad786d6523d83ba4b5014ae4" />
+    </envs>
+    <method v="2" />
+  </configuration>
+</component>

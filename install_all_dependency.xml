@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="install all dependency" type="Multirun" separateTabs="false" reuseTabsWithFailures="false" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="true" delayTime="-1.0">
+    <runConfiguration name="dependencies-control-center [install]" type="Maven" />
+    <runConfiguration name="x-common-starter [install-all]" type="Maven" />
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="bsm" type="Remote">
+    <module name="ricci-bsm-svc" />
+    <option name="USE_SOCKET_TRANSPORT" value="true" />
+    <option name="SERVER_MODE" value="false" />
+    <option name="SHMEM_ADDRESS" />
+    <option name="HOST" value="192.168.165.34" />
+    <option name="PORT" value="9081" />
+    <option name="AUTO_RESTART" value="false" />
+    <RunnerSettings RunnerId="Debug">
+      <option name="DEBUG_PORT" value="9081" />
+      <option name="LOCAL" value="false" />
+    </RunnerSettings>
+    <method v="2" />
+  </configuration>
+</component>
