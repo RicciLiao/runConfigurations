@@ -10,6 +10,10 @@
               <option name="name" value="DYNAMIC_CONFIG_ENABLED" />
               <option name="value" value="true" />
             </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="TZ" />
+              <option name="value" value="Asia/Shanghai" />
+            </DockerEnvVarImpl>
           </list>
         </option>
         <option name="portBindings">

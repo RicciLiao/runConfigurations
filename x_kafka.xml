@@ -54,6 +54,10 @@
               <option name="name" value="KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR" />
               <option name="value" value="1" />
             </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="TZ" />
+              <option name="value" value="Asia/Shanghai" />
+            </DockerEnvVarImpl>
           </list>
         </option>
         <option name="portBindings">

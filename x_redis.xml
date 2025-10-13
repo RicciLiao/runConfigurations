@@ -10,6 +10,10 @@
               <option name="name" value="REDIS_ARGS" />
               <option name="value" value="--requirepass asl123456" />
             </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="TZ" />
+              <option name="value" value="Asia/Shanghai" />
+            </DockerEnvVarImpl>
           </list>
         </option>
         <option name="portBindings">

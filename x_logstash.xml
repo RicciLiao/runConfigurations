@@ -4,6 +4,14 @@
       <settings>
         <option name="imageTag" value="logstash:8.15.0" />
         <option name="containerName" value="x-logstash" />
+        <option name="envVars">
+          <list>
+            <DockerEnvVarImpl>
+              <option name="name" value="TZ" />
+              <option name="value" value="Asia/Shanghai" />
+            </DockerEnvVarImpl>
+          </list>
+        </option>
         <option name="portBindings">
           <list>
             <DockerPortBindingImpl>

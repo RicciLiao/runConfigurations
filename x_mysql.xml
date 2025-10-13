@@ -10,6 +10,10 @@
               <option name="name" value="MYSQL_ROOT_PASSWORD" />
               <option name="value" value="asl123456" />
             </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="TZ" />
+              <option name="value" value="Asia/Shanghai" />
+            </DockerEnvVarImpl>
           </list>
         </option>
         <option name="portBindings">
