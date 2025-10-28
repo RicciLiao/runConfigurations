@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="x-elasticsearch" type="docker-deploy" factoryName="docker-image" folderName="middleware and tool" server-name="docker 33">
+  <configuration default="false" name="x-elasticsearch" type="docker-deploy" factoryName="docker-image" folderName="middleware and tool" server-name="docker 31">
     <deployment type="docker-image">
       <settings>
         <option name="imageTag" value="elasticsearch:8.15.0" />
