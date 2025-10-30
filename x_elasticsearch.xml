@@ -36,7 +36,7 @@
             </DockerPortBindingImpl>
           </list>
         </option>
-        <option name="commandLineOptions" value="-m 1200MB --net elastic-net" />
+        <option name="commandLineOptions" value="-m 1200MB" />
       </settings>
     </deployment>
     <method v="2" />

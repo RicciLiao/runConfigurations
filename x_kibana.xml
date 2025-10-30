@@ -45,7 +45,7 @@
             </DockerPortBindingImpl>
           </list>
         </option>
-        <option name="commandLineOptions" value="-m 850MB --net elastic-net" />
+        <option name="commandLineOptions" value="-m 850MB" />
         <option name="showCommandPreview" value="true" />
         <option name="volumeBindings">
           <list>
