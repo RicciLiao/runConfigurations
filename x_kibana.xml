@@ -9,7 +9,7 @@
           <list>
             <DockerEnvVarImpl>
               <option name="name" value="ELASTICSEARCH_HOSTS" />
-              <option name="value" value="http://192.168.165.33:9200" />
+              <option name="value" value="http://192.168.165.31:9200" />
             </DockerEnvVarImpl>
             <DockerEnvVarImpl>
               <option name="name" value="ELASTICSEARCH_PASSWORD" />
@@ -17,7 +17,7 @@
             </DockerEnvVarImpl>
             <DockerEnvVarImpl>
               <option name="name" value="ELASTICSEARCH_URL" />
-              <option name="value" value="http://192.168.165.33:9200" />
+              <option name="value" value="http://192.168.165.31:9200" />
             </DockerEnvVarImpl>
             <DockerEnvVarImpl>
               <option name="name" value="ELASTICSEARCH_USERNAME" />
