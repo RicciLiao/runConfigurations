@@ -7,8 +7,8 @@
     </scripts>
     <node-interpreter value="project" />
     <envs>
-      <env name="SONAR_HOST_URL" value="http://192.168.165.34:9000" />
-      <env name="SONAR_TOKEN" value="sqa_8145968fc2fdcce3ad786d6523d83ba4b5014ae4" />
+      <env name="SONAR_HOST_URL" value="http://192.168.165.31:9001" />
+      <env name="SONAR_TOKEN" value="squ_f4c17c6f549669e152aafe8138d6fc15641b6ecd" />
     </envs>
     <method v="2" />
   </configuration>
