@@ -6,19 +6,15 @@
         <MavenRunnerSettings>
           <option name="delegateBuildToMaven" value="false" />
           <option name="environmentProperties">
-            <map>
-              <entry key="SONAR_HOST_URL" value="http://192.168.165.34:9000" />
-              <entry key="SONAR_TOKEN" value="sqa_8145968fc2fdcce3ad786d6523d83ba4b5014ae4" />
-            </map>
+            <map />
           </option>
           <option name="jreName" value="#USE_PROJECT_JDK" />
           <option name="mavenProperties">
             <map />
           </option>
           <option name="passParentEnv" value="true" />
-          <option name="runMavenInBackground" value="true" />
           <option name="skipTests" value="false" />
-          <option name="vmOptions" value="" />
+          <option name="vmOptions" value="-Dfile.encoding=UTF-8" />
         </MavenRunnerSettings>
       </option>
       <option name="myRunnerParameters">
