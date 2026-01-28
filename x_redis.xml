@@ -8,7 +8,7 @@
           <list>
             <DockerEnvVarImpl>
               <option name="name" value="REDIS_ARGS" />
-              <option name="value" value="--requirepass asl123456" />
+              <option name="value" value="--requirepass asl123456 --user admin on &gt;asl123456 ~* +@all" />
             </DockerEnvVarImpl>
             <DockerEnvVarImpl>
               <option name="name" value="TZ" />

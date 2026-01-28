@@ -11,6 +11,10 @@
               <option name="value" value="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:8000 -Xms256m -Xmx1024m" />
             </DockerEnvVarImpl>
             <DockerEnvVarImpl>
+              <option name="name" value="DATABASE_URL" />
+              <option name="value" value="192.168.165.31:3306" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
               <option name="name" value="LOGSTASH_URL" />
               <option name="value" value="192.168.165.33:6001" />
             </DockerEnvVarImpl>
@@ -41,6 +45,14 @@
             <DockerEnvVarImpl>
               <option name="name" value="TZ" />
               <option name="value" value="Asia/Shanghai" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="DATABASE_USER_NAME" />
+              <option name="value" value="cache_provider" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="DATABASE_USER_PASSWORD" />
+              <option name="value" value="asl123456" />
             </DockerEnvVarImpl>
           </list>
         </option>

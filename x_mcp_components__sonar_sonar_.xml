@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="ricci-cache-provider [deploy34]" type="MavenRunConfiguration" factoryName="Maven" folderName="ricciliao">
+  <configuration default="false" name="x-mcp-components [sonar:sonar]" type="MavenRunConfiguration" factoryName="Maven" folderName="ricciliao">
     <MavenSettings>
       <option name="myGeneralSettings" />
       <option name="myRunnerSettings">
@@ -7,7 +7,8 @@
           <option name="delegateBuildToMaven" value="false" />
           <option name="environmentProperties">
             <map>
-              <entry key="DOCKER_HOST" value="http://192.168.165.34:2375" />
+              <entry key="SONAR_HOST_URL" value="http://192.168.165.31:9001" />
+              <entry key="SONAR_TOKEN" value="squ_f4c17c6f549669e152aafe8138d6fc15641b6ecd" />
             </map>
           </option>
           <option name="jreName" value="#USE_PROJECT_JDK" />
@@ -28,33 +29,32 @@
           <option name="goals">
             <list>
               <option value="clean" />
-              <option value="package" />
+              <option value="test" />
+              <option value="sonar:sonar" />
+              <option value="clean" />
             </list>
           </option>
           <option name="multimoduleDir" />
           <option name="pomFileName" value="pom.xml" />
           <option name="profilesMap">
-            <map>
-              <entry key="docker" value="true" />
-            </map>
+            <map />
           </option>
           <option name="projectsCmdOptionValues">
             <list />
           </option>
           <option name="resolveToWorkspace" value="false" />
-          <option name="workingDirPath" value="$PROJECT_DIR$/ricci-cache-provider" />
+          <option name="workingDirPath" value="$PROJECT_DIR$/x-mcp-components" />
         </MavenRunnerParameters>
       </option>
     </MavenSettings>
     <extension name="net.ashald.envfile">
-      <option name="IS_ENABLED" value="true" />
+      <option name="IS_ENABLED" value="false" />
       <option name="IS_SUBST" value="false" />
       <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
       <option name="IS_IGNORE_MISSING_FILES" value="false" />
       <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
       <ENTRIES>
         <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        <ENTRY IS_ENABLED="true" PARSER="env" IS_EXECUTABLE="false" PATH="ricci-cache-provider/.env" />
       </ENTRIES>
     </extension>
     <method v="2" />
