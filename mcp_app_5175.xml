@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="mcp-app-5175" type="CompoundRunConfigurationType">
+    <toRun name="JavaScript-mcp" type="JavascriptDebugType" />
+    <toRun name="mcp dev" type="js.build_tools.npm" />
+    <method v="2" />
+  </configuration>
+</component>

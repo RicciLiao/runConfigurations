@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="bsm-app" type="CompoundRunConfigurationType">
-    <toRun name="JavaScript" type="JavascriptDebugType" />
+  <configuration default="false" name="bsm-app-5174" type="CompoundRunConfigurationType">
+    <toRun name="JavaScript-bsm" type="JavascriptDebugType" />
     <toRun name="bsm dev" type="js.build_tools.npm" />
     <method v="2" />
   </configuration>

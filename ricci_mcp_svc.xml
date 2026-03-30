@@ -1,9 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="ricci-cache-provider" type="docker-deploy" factoryName="docker-image" folderName="x" server-name="docker 34">
+  <configuration default="false" name="ricci-mcp-svc" type="docker-deploy" factoryName="docker-image" folderName="x" server-name="docker 34">
     <deployment type="docker-image">
       <settings>
-        <option name="imageTag" value="ricciliao/ricci-cache-provider:1.0" />
-        <option name="containerName" value="ricci-cache-provider" />
+        <option name="imageTag" value="ricciliao/ricci-mcp-svc:1.0" />
+        <option name="containerName" value="ricci-mcp-svc" />
         <option name="envVars">
           <list>
             <DockerEnvVarImpl>
@@ -13,6 +13,14 @@
             <DockerEnvVarImpl>
               <option name="name" value="DATABASE_URL" />
               <option name="value" value="192.168.165.31:3306" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="DATABASE_USER_NAME" />
+              <option name="value" value="mcp" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="DATABASE_USER_PASSWORD" />
+              <option name="value" value="asl123456" />
             </DockerEnvVarImpl>
             <DockerEnvVarImpl>
               <option name="name" value="LOGSTASH_URL" />
@@ -46,14 +54,6 @@
               <option name="name" value="TZ" />
               <option name="value" value="Asia/Shanghai" />
             </DockerEnvVarImpl>
-            <DockerEnvVarImpl>
-              <option name="name" value="DATABASE_USER_NAME" />
-              <option name="value" value="cache_provider" />
-            </DockerEnvVarImpl>
-            <DockerEnvVarImpl>
-              <option name="name" value="DATABASE_USER_PASSWORD" />
-              <option name="value" value="asl123456" />
-            </DockerEnvVarImpl>
           </list>
         </option>
         <option name="portBindings">
@@ -73,7 +73,7 @@
       </settings>
     </deployment>
     <method v="2">
-      <option name="RunConfigurationTask" enabled="true" run_configuration_name="ricci-cache-provider [deploy34]" run_configuration_type="MavenRunConfiguration" />
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="ricci-mcp-svc [deploy34]" run_configuration_type="MavenRunConfiguration" />
     </method>
   </configuration>
 </component>

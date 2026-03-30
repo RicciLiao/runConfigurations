@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="x-common-starter [install-all]" type="MavenRunConfiguration" factoryName="Maven" folderName="ricciliao">
+  <configuration default="false" name="x-components-starter [install-all]" type="MavenRunConfiguration" factoryName="Maven" folderName="ricciliao">
     <MavenSettings>
       <option name="myGeneralSettings" />
       <option name="myRunnerSettings" />
