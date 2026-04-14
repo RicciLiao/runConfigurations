@@ -18,6 +18,7 @@
               <option value="-Dversion=1.0.0" />
               <option value="-Dpackaging=jar" />
               <option value="-DpomFile=src\assembly\common-pom.xml" />
+              <option value="clean" />
             </list>
           </option>
           <option name="multimoduleDir" />
