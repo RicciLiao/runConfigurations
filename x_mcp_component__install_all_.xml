@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="x-mcp-components [install-all]" type="MavenRunConfiguration" factoryName="Maven" folderName="ricciliao" activateToolWindowBeforeRun="false">
+  <configuration default="false" name="x-mcp-component [install-all]" type="MavenRunConfiguration" factoryName="Maven" folderName="ricciliao" activateToolWindowBeforeRun="false">
     <MavenSettings>
       <option name="myGeneralSettings" />
       <option name="myRunnerSettings">
@@ -37,7 +37,7 @@
             <list />
           </option>
           <option name="resolveToWorkspace" value="false" />
-          <option name="workingDirPath" value="$PROJECT_DIR$/x-mcp-components" />
+          <option name="workingDirPath" value="$PROJECT_DIR$/x-mcp-component" />
         </MavenRunnerParameters>
       </option>
     </MavenSettings>
@@ -52,9 +52,9 @@
       </ENTRIES>
     </extension>
     <method v="2">
-      <option name="RunConfigurationTask" enabled="false" run_configuration_name="x-mcp-components [package]" run_configuration_type="MavenRunConfiguration" />
-      <option name="RunConfigurationTask" enabled="false" run_configuration_name="x-mcp-components [install-common]" run_configuration_type="MavenRunConfiguration" />
-      <option name="RunConfigurationTask" enabled="false" run_configuration_name="x-mcp-components [install-consumer]" run_configuration_type="MavenRunConfiguration" />
+      <option name="RunConfigurationTask" enabled="false" run_configuration_name="x-mcp-component [package]" run_configuration_type="MavenRunConfiguration" />
+      <option name="RunConfigurationTask" enabled="false" run_configuration_name="x-mcp-component [install-common]" run_configuration_type="MavenRunConfiguration" />
+      <option name="RunConfigurationTask" enabled="false" run_configuration_name="x-mcp-component [install-consumer]" run_configuration_type="MavenRunConfiguration" />
     </method>
   </configuration>
 </component>

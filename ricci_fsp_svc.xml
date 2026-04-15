@@ -18,6 +18,10 @@
               <option name="name" value="TZ" />
               <option name="value" value="Asia/Shanghai" />
             </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="FSP_PATH" />
+              <option name="value" value="/data/fsp" />
+            </DockerEnvVarImpl>
           </list>
         </option>
         <option name="portBindings">
@@ -34,6 +38,14 @@
         </option>
         <option name="commandLineOptions" value="-t  --dns 192.168.165.33  --dns-search ricciliao.dev -m 800MB" />
         <option name="showCommandPreview" value="true" />
+        <option name="volumeBindings">
+          <list>
+            <DockerVolumeBindingImpl>
+              <option name="containerPath" value="/data/fsp" />
+              <option name="hostPath" value="/data/fsp" />
+            </DockerVolumeBindingImpl>
+          </list>
+        </option>
       </settings>
     </deployment>
     <method v="2">
