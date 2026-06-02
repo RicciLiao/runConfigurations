@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="common-components-app [sonar]" type="js.build_tools.npm">
+    <package-json value="$PROJECT_DIR$/x-common-components-app/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="sonar" />
+    </scripts>
+    <node-interpreter value="$APPLICATION_CONFIG_DIR$/node/versions/24.14.1/node" />
+    <envs>
+      <env name="SONAR_HOST_URL" value="http://192.168.165.31:9001" />
+      <env name="SONAR_TOKEN" value="squ_f4c17c6f549669e152aafe8138d6fc15641b6ecd" />
+    </envs>
+    <method v="2" />
+  </configuration>
+</component>
