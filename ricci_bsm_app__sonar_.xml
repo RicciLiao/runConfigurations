@@ -5,11 +5,14 @@
     <scripts>
       <script value="sonar" />
     </scripts>
-    <node-interpreter value="$APPLICATION_CONFIG_DIR$/node/versions/24.14.1/node" />
+    <node-interpreter value="project" />
     <envs>
       <env name="SONAR_HOST_URL" value="http://192.168.165.31:9001" />
       <env name="SONAR_TOKEN" value="squ_f4c17c6f549669e152aafe8138d6fc15641b6ecd" />
     </envs>
+    <EXTENSION ID="com.intellij.lang.javascript.buildTools.npm.rc.StartBrowserRunConfigurationExtension">
+      <browser name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+    </EXTENSION>
     <method v="2" />
   </configuration>
 </component>

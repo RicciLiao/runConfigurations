@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="ricci-fsp-svc" type="docker-deploy" factoryName="docker-image" folderName="x" server-name="docker 34">
+  <configuration default="false" name="ricci-fsp-svc" type="docker-deploy" factoryName="docker-image" folderName="x">
     <deployment type="docker-image">
       <settings>
         <option name="imageTag" value="ricciliao/ricci-fsp-svc:1.0" />
